@@ -1,4 +1,4 @@
-package com.songify.song;
+package com.songify.song.controller;
 
 import ch.qos.logback.core.model.Model;
 import org.springframework.stereotype.Controller;
