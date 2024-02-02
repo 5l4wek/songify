@@ -1,4 +1,6 @@
 package com.songify.song.dto.response;
 
-public record PartiallyUpdateSongResponseDto(String message) {
+import com.songify.song.controller.Song;
+
+public record PartiallyUpdateSongResponseDto(Song updatedSong) {
 }
